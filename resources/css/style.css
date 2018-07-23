@@ -1,3 +1,41 @@
+/* start of font choices and styling */
+* {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+nav {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+#design {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+
+.btm-nav{
+  font-size: 9px;
+}
+
 h1,
 nav,
 .process,
@@ -7,17 +45,34 @@ nav,
 
 h1,
 a,
-#footer {
+#footer,
+#design {
   color: white;
 }
 
-
-h1 {
-  background: url("../images/the-flatiron-building.png");
+nav {
+  line-height: 200%;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+/*start of page styling */
+
+.header {
+  background: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+}
 
 #design {
   background: url("../images/the-flatiron-building.png");
+}
 
+#footer {
+  background-color: dimgray;
 }
