@@ -4,3 +4,20 @@ nav,
 .pg-break {
   text-align: center;
 }
+
+h1,
+a,
+#footer {
+  color: white;
+}
+
+
+h1 {
+  background: url("../images/the-flatiron-building.png");
+}
+
+
+#design {
+  background: url("../images/the-flatiron-building.png");
+
+}
