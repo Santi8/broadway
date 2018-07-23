@@ -67,10 +67,13 @@ a:hover {
 .header {
   background: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
+  background-position: center;
+  /*background-size: contain;*/
 }
 
 #design {
   background: url("../images/the-flatiron-building.png");
+  background-position: center;
 }
 
 #footer {
